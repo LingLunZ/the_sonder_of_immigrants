@@ -72,14 +72,14 @@ h1,h2,h3,h4,h5,h6,p{
 	border-radius: 15px;
 }
 /*下拉選項*/
-.droplist{
-	/*不顯示*/
+/*.droplist{
+		不顯示
 	display: none;
 	background: #d7680c;
 	box-shadow: 0 0 2px #666;
-	/*圓角*/
+		圓角
 	border-radius: 15px;
-	/*超出部分隱藏*/
+		超出部分隱藏
 	overflow: hidden;
 }
 .droplist li a:hover{
@@ -92,14 +92,14 @@ h1,h2,h3,h4,h5,h6,p{
 	font-size: 12px;
 	padding: 0 5px;
 }
-/*當滑鼠移到選項時，下拉選項*/
+	當滑鼠移到選項時，下拉選項
 .btli:hover .droplist{
 	display: block;
 }
 .droplist li{
-	/*用線隔開*/
+		用線隔開
 	border-top: 1px solid #EC8640;
-}
+}*/
 /*.clear{
 	clear: both;
 }*/
@@ -111,91 +111,105 @@ h1,h2,h3,h4,h5,h6,p{
 	padding: 20px 0;
 	font-weight: bold;
 }
+#作品簡介 span
 #作品簡介 p{
 	padding: 10px 0;
 }
 
 /*受訪者介紹*/
 #受訪者介紹{
-	margin: 0 70px;
-	padding: 20px 0;
+	width: 90%;
+	margin: 10px auto 60px;
+	padding: 30px 0;
 	background-color: #fff;
 	border-radius: 70px;
 }
 .peopletitle{
 	color: #532100;
 	margin: 0 auto;
-	width: 700px;
-	height: 80px;
+	width: 70%;
+	height: 70px;
 	background: #ffe37d;
 	border-radius: 50px;
 }
 .peopletitle h3{
 	font-weight: bold;
-	padding: 10px 0;
+	padding: 10px 0 0 0;
 }
 .peopletitle p{
 	font-weight: bold;
 	text-align: 70px;
 }
 .Co-Nation,.Iso-Life{
-	padding: 20px 80px;
+	padding: 30px 0;
+	margin: 0 auto;
+	width: 80%;
 	color: #532100;
 }
+.people{
+	/*padding: 100px 0;*/
+}
 .people .c13-1{
-	padding-left: 50px;
-	width: 200px;
-	height: 200px;
-	float: left;
-}
-.people .c13-2{
-	padding-right: 100px;
-	width: 600px;
-	height: 200px;
-	float: right;
-}
-.people .c2-1{
-	padding-right: 50px;
-	width: 200px;
-	height: 200px;
-	float: right;
-}
-.people .c2-2{
-	padding-left: 100px;
-	width: 600px;
+	/*padding-left: 50px;*/
+	width: 35%;
 	height: 200px;
 	float: left;
 }
 .people img{
-	float: left;
-	line-height: 200px;
+	margin: 0 auto;
+	float: inherit;
+	/*line-height: 200px;*/
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
 }
+.people .c13-2{
+	/*padding-right: 100px;*/
+	width:  65%;
+	height: 200px;
+	float: right;
+	/*text-align: left;*/
+}
+.people .c2-1{
+	/*padding-right: 50px;*/
+	width: 35%;
+	height: 200px;
+	float: right;
+}
+.people .c2-2{
+	/*padding-left: 100px;*/
+	width: 65%;
+	height: 200px;
+	float: left;
+}
+.c13-2more{
+	text-align: right;
+	margin: 20px 20px;
+}
 .people h4{
 	font-size: 20px;
-	padding: 15px;
+	/*padding: 15px;*/
 	text-align: left;
 	font-weight: bold;
 }
 .people p{
-	padding: 0 20px;
-	text-align: center;
+	/*padding: 0 20px;*/
+	text-align: left;
 	font-weight: bold;
 }
 .people a{
 	font-size: 14px;
 	/*display: block;*/
-	text-align: right;
-	padding: 10px 20px;
+	/*text-align: right;*/
+	/*margin: 200px 20px;*/
+	/*padding: 10px 20px;*/
 	font-weight: bold;
 	color: #857868;
 }
 
 
 /*東南亞小百科*/
-.東南亞title{
+/*.東南亞title{
 	padding: 20px 0;
 	font-weight: bold;
 	color: #532100;
@@ -263,18 +277,34 @@ h1,h2,h3,h4,h5,h6,p{
 	opacity: 1;
 	margin-top: -40px;
 	transition-delay: 0.3s;
-}
+}*/
 
 /*友站連結*/
 #link{
-	height: 500px;
+	height: 400px;
 	width: 100%;
 }
-#linkdetail
-{
-	height: 465px;
-	width: 100%;
+#linkdetail{
+	font-weight: bold;
+	padding: 100px 100px;
+	height: 165px;
 	background-color: #333;
+	color: #fff;
+}
+#linkdetail .img{
+	height: 100%;
+	float: left;
+	margin: 0 40px;
+}
+#linkdetail img{
+	/*margin: auto 20px;*/
+	width: 220px;
+	height: 190px;
+	border-radius: 40px;
+}
+#linkdetail .detail{
+	float: left;
+	margin: 30px;
 }
 #last{
 	height: 35px;
@@ -290,11 +320,16 @@ h1,h2,h3,h4,h5,h6,p{
 	display: block;
 	height: 50px;
 	width: 50px;
-	background: #fff;
+	background: #FFEDAD;
 	box-shadow: 0 0 2px;
 	position: fixed;
 	bottom: 60px;
 	right: 25px;
 	/*之後可刪*/
-	color: #000;
+	color: #532100;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 10px;
 }
