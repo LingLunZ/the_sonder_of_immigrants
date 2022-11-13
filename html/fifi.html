@@ -2,91 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>《移風·異俗》</title>
-    <style>
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            height: 200vh;
-            overflow-x: hidden;
-        }
-
-        .background {
-            background-image: url("D:/畢製/網站/image/fifi.jpg");
-            background-size: cover;
-            background-position: 50% 50%;
-            height: 200vh;
-            font: 900 39rem '';
-            line-height: 130vh;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            position: relative;
-            text-align: center;
-            overflow: hidden;
-        }
-
-        .background::before {
-            content: '';
-            background-size: cover;
-            background-image: inherit;
-            background-position: 50% 50%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            z-index: -99;
-        }
-
-        h1 {
-            position: absolute;
-            text-align: center;
-            width: 100%;
-            letter-spacing: 10px;
-            color: #117FCE;
-        }
-
-        h2 {
-            position: absolute;
-            letter-spacing: 2px;
-            top: 120vh;
-            width: 60%;
-            color: #fff;
-            left: 50%;
-            transform: translateX(-50%);
-            padding: 30px;
-            background-color: rgba(0, 0, 0, .3);
-        }
-    </style>
+    <link rel="icon" href="../image/puppygirls(1).ico">
+    <link rel="stylesheet" href="../css/fifi.css">
 </head>
-
 <body>
-    <h1>移風<br />Co-Nation</h1>
-    <div class="background"><span>Fiona</span></div>
-    <h2>
-        In winter, it is covered with snow and snow. When you climb to Jinding, you can see far and wide, and the
-        scenery is very magnificent; West overlooking Aiai snow peak, Gongga Mountain and Wawu mountain, the mountains
-        connect the sky; Looking south at the top of Ten Thousand Buddhas, the clouds are rolling and the momentum is
-        magnificent; A panoramic view of the Pingchuan River in the north is as beautiful as a shop, with a panoramic
-        view of the Dadu River and Qingyi River
-    </h2>
-
-    <script>
-        const background = document.querySelector(".background")
-
-        document.addEventListener('scroll', () => {
-            const scrollY = window.scrollY
-
-            if (scrollY !== 0) {
-                background.style.backgroundPosition = `calc(50% + ${scrollY}px) calc(50% + ${scrollY}px)`
-            }else{
-                background.style.backgroundPosition = ''
-            }
-        })
-    </script>
+    <div id="top">&nbsp;</div>
+    <!-- 選項列 -->
+    <div class="nav">
+        <ul class="navlist">
+            <li class="btli" id="title"><a href="../index.html">移風·異俗</a></li>
+            <li class="btli"><a href="#舉辦活動">舉辦活動</a></li>
+            <li class="btli"><a href="#採訪影片">採訪影片</a></li>
+            <li class="btli"><a href="#受訪者介紹">受訪者介紹</a></li>
+        </ul>
+    </div>
+    <!-- 受訪者介紹 -->
+    <div id="受訪者介紹">
+        <img src="../image/素材/照片/fifi.jpg" alt="">
+        <h3>
+            Fiona FiFi 林蕙盈
+        </h3>
+        <h4>
+            Youtuber
+        </h4>
+        <span class="content">
+            <p>
+            這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹。
+            </p>
+            <p>
+            這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹。
+            </p>
+            <p>
+            這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹這裡是介紹。
+            </p>
+        </span>
+    </div>
+    <!-- 採訪影片 -->
+    <div id="採訪影片" >
+        <div class="videotitle">
+          <h2>採訪影片</h2>  
+        </div>
+        <div class="video">
+            <iframe  src="https://www.youtube.com/embed/ATwl6WdMa6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- 舉辦活動 -->
+    <div id="舉辦活動">
+        <div class="hdtitle">
+            <h2>舉辦活動</h2>
+        </div>
+        <div class="輪播圖">
+             <img src="../image/素材/照片/IMG_5262.jpeg" alt="">
+             <img src="../image/素材/照片/IMG_9601.jpg" alt="">
+              <img src="../image/素材/照片/IMG_9576.jpg" alt="">
+        </div>
+    </div> 
+    <!-- 友站連結 -->
+    <div id="link">
+        <div id="linkdetail">
+            <div class="img">
+                <img src="../image/puppygirls(1).png" alt="">
+            </div>
+            <div class="detail">
+                狗派少女製作團隊<br>
+                Email：puppygirls@gmail.com<br>
+                Tel：0952-593912<br>
+                433台中市沙鹿區台灣大道七段200號<br>
+                關於我們<br>
+            </div>
+            <div class="detail">
+                M.I.T社群<br>
+                迦南計劃官網<br>
+                台灣新移民協會網址<br>
+            </div>
+            <div class="detail">
+                IG、FB社群<br>
+                QRcode<br>
+            </div>
+        </div>
+        <div id="last" >
+            &copy; 靜宜大學大眾傳播學系 Puppy Girls 2022
+        </div>
+    </div>
+    <!-- 回到頂部 -->
+    <div class="backtop">
+        <a href="#大圖輪播">^</a>
+    </div>
 </body>
-
 </html>
