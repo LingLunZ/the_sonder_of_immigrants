@@ -97,7 +97,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /*關於我們*/
-#關於我們{
+.關於我們{
 	position: relative;
 	perspective: 1600px;
 	top: 600px;
@@ -120,7 +120,7 @@ h1,h2,h3,h4,h5,h6,p{
 	height: 250px;
 	transform: rotateY(calc(var(--i)*120deg)) translateZ(600px);
 }
-@keyframes lim{
+@keyframes 關於我們{
 	0%{
 		transform: translateZ(-100px) rotateY(0);
 	}
