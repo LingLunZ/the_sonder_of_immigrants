@@ -22,10 +22,51 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /*大圖輪播or視覺差效果*/
-#大圖輪播 img{
-	width: 500px;
-	height: 500px;
+#Taiwan{
+	/*position: absolute;
+	z-index: 15;*/
+	text-align: right;
 }
+#Taiwan img{
+	width: 80px;
+	height: 160px;
+}
+#South{
+	/*position: absolute;
+	z-index: 10;*/
+	text-align: left;
+}
+#South img{
+	width: 520px;
+	height: 270px;
+}
+@keyframes plane{
+	0%{
+		transform: translate(1200px,-60px);
+		/*transform:rotate(1deg);
+		transform: scale(1.0,1.0);*/
+	}
+	50%{
+		transform: translate(750px,28px);
+		/*transform: scale(1.5,1.5);*/
+	}
+	100%{
+		transform: translate(300px,180px);
+		/*transform: scale(1.0,1.0);*/
+	}
+}
+#plane{
+	position: absolute;
+	z-index: 1000;
+	text-align: right;
+	margin-right: 120px;
+	animation: plane 3.5s linear infinite;
+}
+#plane img{
+	width: 120px;
+	height: 80px;
+}
+
 /*選項列*/
 .nav{
 	margin: 0 auto;
@@ -38,10 +79,11 @@ h1,h2,h3,h4,h5,h6,p{
 	box-shadow: 0 0 5px #666;
 	/*半透明*/
 	opacity: 0.9;
-	margin-top: 400px;
+	margin-top: 10px;
 	/*黏性定位*/
 	position: sticky;
 	top: 50px;
+	z-index: 1;
 }
 #title{
 	float: left;
@@ -106,14 +148,20 @@ h1,h2,h3,h4,h5,h6,p{
 
 /*作品簡介*/
 #作品簡介{
-	color: #532100;
+	color: #df7338;
 	margin: 0 70px;
 	padding: 20px 0;
 	font-weight: bold;
 }
-#作品簡介 span
-#作品簡介 p{
-	padding: 10px 0;
+#作品簡介 span h1{
+	font-size: 38px;
+}
+#作品簡介 span p{
+	color: #532100;
+	padding: 0 30px;
+	font-size: 18px;
+	line-height: 30px;
+	/*text-indent: 2em;*/
 }
 
 /*受訪者介紹*/
@@ -296,15 +344,29 @@ h1,h2,h3,h4,h5,h6,p{
 	float: left;
 	margin: 0 40px;
 }
-#linkdetail img{
+#linkdetail .img img{
 	/*margin: auto 20px;*/
 	width: 220px;
 	height: 190px;
 	border-radius: 40px;
 }
+.lastplane{
+	position: absolute;
+	transform: translate(1000px);
+	z-index: 100;
+	margin: 40px 0 0 0 ;
+}
+#linkdetail .lastplane img{
+	width: 300px;
+	height: 190px;
+}
 #linkdetail .detail{
 	float: left;
 	margin: 30px;
+}
+.igfb img{
+	width: 30px;
+	height: 30px;
 }
 #last{
 	height: 35px;
@@ -326,10 +388,11 @@ h1,h2,h3,h4,h5,h6,p{
 	bottom: 60px;
 	right: 25px;
 	/*之後可刪*/
-	color: #532100;
+	color: #df7338;
 	font-weight: bold;
-	line-height: 50px;
+	line-height: 47px;
 	text-align: center;
-	font-size: 30px;
-	border-radius: 10px;
+	font-size: 17px;
+	border-radius: 15px;
+	z-index: 2000;
 }
