@@ -173,10 +173,12 @@ footer .infoo{
     align-items: center;
 }
 footer h2{
-	width: 200px;
-	height: 200px;
+	width: 300px;
 	margin: 0 auto;
-	background: #988;
+}
+footer h2 img{
+	width: 100%;
+	left: -100px;
 }
 footer .info{
 	width: 65%;
@@ -345,8 +347,12 @@ justify-content: center;
 /*14吋資訊欄*/
 @media(max-width: 1600px){
 	footer h2{
-		width: 180px;
-		height: 180px;
+		width: 220px;
+		margin: 0 auto;
+	}
+	footer h2 img{
+		width: 100%;
+		left: -70px;
 	}
 	footer .address{
 		font-size: 12px;
@@ -373,6 +379,12 @@ justify-content: center;
 		width: 60%;
 		display: block;
 	}
+	footer h2{
+		margin: 50px auto 20px;
+	}
+	footer h2 img{
+		left: 0px;
+	}
 	footer .info{
 		width: 100%;
 	}
@@ -397,9 +409,7 @@ justify-content: center;
 	}
 	footer h2{
 		width: 200px;
-		height: 200px;
-		margin: 0 auto;
-		background: #988;
+		margin: 50px auto 20px;
 	}
 	footer .info{
 		width: 100%;
