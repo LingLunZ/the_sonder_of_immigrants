@@ -92,37 +92,26 @@
 			</li>
 		</ul>
 	</nav>
-	<input class="hamburger" type="button" onclick="document.getElementById('sp_menu').style.display = '';">
-	        <span class="hamburger_line hamburger_line-1">
-	        </span>
-	        <span class="hamburger_line hamburger_line-2">
-	        </span>
-	        <span class="hambuger_text01">
-	            <img src="image/menu.png">
-	        </span>
-	</input>
-	<input class="hamburger2" type="button" onclick="demoDisplay()">
-	        <span class="hamburger_line hamburger_line-1">
-	        </span>
-	        <span class="hamburger_line hamburger_line-2">
-	        </span>
-	        <span class="hambuger_text02">
+	<input type="checkbox" id="toggler">
+	<label for="toggler">
+		<div class="hamburger">
+		    <span class="hamburger_line hamburger_line-1">
+		    </span>
+		    <span class="hamburger_line hamburger_line-2">
+		    </span>
+		    <span class="hambuger_text01">
+		        <img src="image/menu.png">
+		    </span>
+		    <span class="hambuger_text02">
 	            <img src="image/close.png">
 	        </span>
-	</input>
-	<script>
-		function demoDisplay() {
-		  document.getElementById("sp_menu").style.display = "";
-		}
-		function demoDisplay() {
-		  document.getElementById("sp_menu").style.display = "none";
-		}
-	</script>
+		</div>
+	</label>
 	<nav id="sp_menu">
 	    <div class="sp_menu_inr">
-	        <h3>
-	        	<a href="#">
-	        		<img src="image/puppygirls(1).png">
+	        <h3 class="logoo">
+	        	<a href="index.html">
+	        		<img src="image/logo.png">
 	        	</a>
 	        </h3>
 	        <div class="sp_menu_list">
@@ -134,13 +123,37 @@
 	        		<h3>異&nbsp;&nbsp;俗</h3>
 	        		<span class="en">ISO-LIFE</span>
 	        	</a>
+	        	<!-- <a href="html/myz.html">
+	        		<h3>麥玉珍</h3>
+	        		<span class="en"></span>
+	        	</a>
+	        	<a href="html/isaac.html">
+	        		<h3>楊冠義</h3>
+	        		<span class="en">Isaac Yang</span>
+	        	</a>
+	        	<a href="html/yuki.html">
+	        		<h3>陳氏雪</h3>
+	        		<span class="en">Yuki Chen</span>
+	        	</a>
+	        	<a href="html/pindy.html">
+	        		<h3>菲達蒂</h3>
+	        		<span class="en">Pindy Windy</span>
+	        	</a>
+	        	<a href="html/fifi.html">
+	        		<h3>林蕙盈</h3>
+	        		<span class="en">Fiona / FiFi</span>
+	        	</a>
+	        	<a href="html/zyx.html">
+	        		<h3>張郁馨</h3>
+	        		<span class="en">Alisa</span>
+	        	</a> -->
 	        	<a href="html/dnyxbk.html">
-	        		<h3>東南亞小百科</h3>
-	        		<span class="en">ABOUT DNY</span>
+	        		<h3>東南亞小知識</h3>
+	        		<span class="en">ABOUT SOUTHEAST ASIA</span>
 	        	</a>
 	        	<a href="html/puppygirls.html">
 	        		<h3>關於狗派少女</h3>
-	        		<span class="en">ABOUT PUPPY GIRLS</span>
+	        		<span class="en">PUPPY GIRLS</span>
 	        	</a>
 	        </div>
 	        <h4>
